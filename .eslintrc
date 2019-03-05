@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["react", "plugin:react/recommended", "eslint:recommended"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  //   "rules": {
+  //     "no-unused-vars": [
+  //       "error",
+  //       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+  // 	],
+  // 	"react/jsx-uses-react": 1
+  //   },
+  "rules": {
+    "no-unused-vars": ["error", { "vars": "all", "args": "all" }]
+  }
+}
